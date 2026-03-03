@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background: #f0f0f0;
+  background-color: #acd4f052;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.container-geral {
+  width: 794px;   
+  max-width: 90%;
+  min-height: 1123px;
+  background: white; 
+  margin: 40px auto; 
+  padding: 30px;
+  border-radius: 12px; 
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15); 
+  border: 1px solid #ddd; 
+}
+#unidade{
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.center {
+  text-align: center;
+  font-style: italic;
+  flex: 1;
+  font-size: 14px;
+}
+.esquerda img, .direita img {
+  width: 120px;
+  height: auto;
+}
+h1 {
+  text-align: center;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-weight: bold;
+}
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 14px;
+}
+textarea {
+  height: 100px;
+  resize: none;
+  vertical-align: top;
+}
+#dados {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 10px 0;
+}
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  width: 50%;
+}
+.tipo-servico {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10px auto;
+}
+#reparos, 
+#reparos th, 
+#reparos td{
+  text-align: left;
+  border: none;
+  width: 800px;
+}
+h4{
+  text-align: center;
+}
+.tipo-servico label {
+  cursor: pointer;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #444;
+}
+#limpar{
+  background-color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+#limpar:hover{
+  background-color: #a31b1b;
+}
